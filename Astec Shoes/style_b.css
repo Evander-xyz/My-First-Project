@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body  {
+    background-color: #1c1c1c;;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+     font-size:16px;
+     line-height: 1.6em;
+     margin: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+    padding-bottom: 20px;
+}
+#mainheader {
+   background-color: #1c1c1c;
+}
+  #logo {
+   position: absolute;
+   color: orange;
+   padding-top: 20px;
+}
+#logo h1{
+   font-size: 30px;
+}
+#navbar ul{
+   padding-top: 20px;
+   list-style: none;
+   text-align: center;
+      
+}
+#navbar li{
+   display: inline;
+   
+}
+#navbar a{
+   color: rgb(107, 103, 96);
+   text-decoration: none;
+   font-size: 14px;
+   padding-right: 30px;
+}
+
+
+.btn {
+    font-size: 1.0em;
+    color: black;
+    font-weight: ;
+    background-color: orange;
+    box-shadow: ;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 20px;
+    margin-top: px;
+    margin-left: 250px;
+    margin-right: -200px;
+}
+#showme {
+    background-image: url('../images/wrap2.jpg');
+    background-position: center right;
+    height: 450px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#showme::before{
+    background-color: #1c1c1c;
+}
+.produkt {
+    color: orange;
+    padding-top: 20px ;
+}
+.product h2 {
+    text-align: center;
+}
+ /*for the table*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+.btnmain{
+    margin-left : 30px ;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+ }
+#customers tr {
+    height: 50px;
+}
+#customers h4{
+    display: none;
+}
+#customers img{
+    width: 80px;
+}
+#customers img:hover {
+    opacity: 50%;
+    display: block;
+}
+#customers img:hover {
+    opacity: 50%;
+    display: block;
+}
+#customers img:hover + h4{
+    display: block;
+}
+  
+
+#customers th:last-child{
+    text-align: right;
+    padding-right: 40px ;
+}
+#customers td:last-child{
+    text-align: right;
+    padding-right: 40px ;
+  }
+#customers td, #customers th {
+   /* border: 1px solid  #474347;   */
+    padding: 8px;
+  }
+  
+#customers tr:nth-child(even){background-color: #474347; }
+  
+#customers tr:hover {background-color: rgb(238, 157, 5);; }
+  
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(238, 157, 5);
+    color: #474347; 
+  }
+#customers th:first-of-type { border-top-left-radius: 10px; }
+#customers th:last-of-type { border-top-right-radius: 10px; }
+#customers tr:last-of-type td:first-of-type { border-bottom-left-radius: 5px; }
+#customers tr:last-of-type td:last-of-type { border-bottom-right-radius: 5px; }
+/* for the footer*/
+#footer {
+    background-color: rgb(230, 150, 3);
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #1c1c1c;
+}
+.foot {
+ float: left;
+ width: 31%;
+ text-align: center;
+ height: 350px;
+}
+.foot ul{
+    list-style: none;
+}
+.foot li{
+    text-decoration: none;
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 30px;
+   
+ }
+.cultur {
+    text-align: center;
+    padding: 10px;
+}
+.cultur h2{
+    color: orange;
+}
+
+
+/* for the contact page*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+.rowy{
+    color: orange;
+    height: 600px;
+    background-color: #ccc;
+    width: ;
+}
+.footy{
+    width: 50%;
+}
+#lefty{
+    text-align: center;
+    background-color: rgb(226, 148, 3); 
+    height: 600px;
+    display: inline-block;
+    color:  #1c1c1c ;
+    
+}
+#lefty h2{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+#lefty p{
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+}
+#righty{
+    display: inline-block;
+    float: right;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border:; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #ccc;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #474347 ;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: whitesmoke;
+  }
+
+.my_map {
+    filter: grayscale(100%) invert(100%);
+}
+
+
+/*this style is for the purchase form*/
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn_5 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  /*.btn:hover {
+    background-color: orange;
+  }
+  */
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  label{
+    color: grey;
+  }
+  h3{
+    color: rgb(241, 158, 2);
+  }
+  

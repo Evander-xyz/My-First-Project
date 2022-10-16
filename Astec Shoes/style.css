@@ -1,0 +1,241 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body  {
+   background-color: #1c1c1c;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	font-size:16px;
+	line-height: 1.6em;
+	margin: none;
+   
+  /* background-image: url('../images/wrap.jpg');*/	
+}
+.ragtag{
+   background-image: url('../images/shoe17.jpg');
+   background-position: center right;
+   height: 500px;
+   margin-bottom: 30px;
+   object-fit: cover;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#mainheader {
+   background-color: #1c1c1c;
+   
+}
+  #logo {
+   position: absolute;
+   color: orange;
+   padding-top: 20px;
+}
+#logo h1{
+   font-size: 30px;
+}
+#navbar ul{
+   padding-top: 20px;
+   list-style: none;
+   text-align: center;
+      
+}
+#navbar li{
+   display: inline;
+   
+}
+#navbar a{
+   color: rgb(107, 103, 96);
+   text-decoration: none;
+   font-size: 14px;
+   padding-right: 30px;
+  
+}
+#navbar a:hover {
+   color: orange;
+ }
+ #navbar .icon {
+   display: none;
+ }
+ /* for my responsive navbar*/
+ 
+ @media screen and (max-width: 600px) {
+  #navbar a {
+   display: none;
+  }
+  
+   #navbar a.icon {
+     float: right;
+     display: block;
+   }
+   #navbar button{
+      display: none;
+   }
+}
+   @media screen and (max-width: 600px) {
+      .navbar.responsive {position: relative;}
+      .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+   #navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      color:rgb(230, 150, 3);
+      background-color:rgb(230, 150, 3)
+    }
+ }
+
+.btn {
+   font-size: 1.0em;
+   color: black;
+   font-weight: ;
+   background-color: orange;
+   box-shadow: ;
+   border: none;
+   border-radius: 10px;
+   padding: 3px 6px 3px 6px;
+   margin-bottom: 20px;
+   margin-top: px;
+   margin-left: 250px;
+   margin-right: -200px;
+}
+.btnmain{
+   margin: 10px 9px 10px 0px;
+   border-radius: 3px;
+   padding: 5px 10px 5px 10px;
+   color: black;
+   background-color: orange;
+   border: none;
+   font-weight: bold;
+}
+#showcas {
+   color: grey;
+}
+.column {
+   float: left;
+   width: 31%;
+   text-align: center;
+   height: 350px;
+   margin-right: 
+ }
+ .column p{
+   font-weight: bold;
+   color:rgb(238, 157, 5);
+ }
+  #left{
+   background-image: url('../images/shoe9.jpg'); 
+   margin-left: 20px ;
+ }
+#middle{
+   background-image: url('../images/shoe8.jpg');
+   margin-left: 20px;
+}
+#right{
+   background-image: url('../images/shoe5.jpg');
+   margin-left: 20px;
+}
+ 
+
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+#releases {
+   text-align: center;
+}
+#releases h2{
+   color: orange;
+}
+#releases ul{
+   list-style: none;
+   color: grey;
+}
+#releases li{
+   display: inline;
+}
+#releases a{
+   text-decoration: none;
+   font-size: 14px;
+   padding-right: 30px;
+} 
+ /*the following will be for the footer  */
+
+#footer {
+   background-color: rgb(230, 150, 3);
+   height: 300px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   color: #1c1c1c;
+}
+.foot {
+float: left;
+width: 31%;
+text-align: center;
+height: 350px;
+}  
+.foot ul{
+   list-style: none;
+}
+.foot li{
+   text-decoration: none;
+}
+.foot a{
+   color: black;
+   text-decoration: none;
+   font-size: 14px;
+   padding-right: 30px;
+  
+}
+
+/*for the about section*/
+#abt{
+   background-color: #474347;
+   margin-top: 25px ;
+   padding-bottom: 20px;
+   height: 260px;
+   border-radius: 20px;
+   text-align: center;
+   color: rgb(238, 157, 5);
+}
+#news{
+   text-align: center;
+   padding-bottom: 30px ;
+}
+#news h3{
+   color: orange;
+}
+#news p{
+   color: #7c787c;
+   font-size: 1.0em;
+   
+}
+
+
+/* about page styles*/
+.about {
+   text-align: center;
+}
+.about h2{
+   color: orange;
+   margin-top: 30px;
+}
+.about p{
+   color: #8f8c8f;
+}
+
+
+/* for the product page*/ 
+.showcase {
+   background-image: url('../images/wrap2.jpg'); 
+}
+
+
